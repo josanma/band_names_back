@@ -24,3 +24,6 @@ server.listen(port, (err) => {
 module.exports = {
     io
 }
+
+require('./socket/socket')
+
